@@ -1,0 +1,11 @@
+.container {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container img {
+  margin: 0 auto;
+  width: 50%;
+}
