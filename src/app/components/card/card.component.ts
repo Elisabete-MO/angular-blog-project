@@ -9,10 +9,10 @@ export class CardComponent {
 
   @Input()
   photo: string = "";
-
   @Input()
   title: string = "";
-  
   @Input()
   cardText: string = "";
+  @Input()
+  id: number = 0;
 }

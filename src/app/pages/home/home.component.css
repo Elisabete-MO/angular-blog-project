@@ -11,13 +11,13 @@
 .principal {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 50%;
+  margin: 20px;
+  width: 45%;
 }
 
 .secondary {
   display: flex;
   flex-direction: column; 
-  height: 30%;
-  width: 50%;
+  margin: 20px;
+  width: 45%;
 }

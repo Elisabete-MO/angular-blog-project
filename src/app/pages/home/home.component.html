@@ -1,9 +1,8 @@
-<app-menu-bar></app-menu-bar>
-<app-menu-title></app-menu-title>
 <div class="articles">
   <div class="principal">
     <app-card 
-      [photo]="'https://picsum.photos/200/300'" 
+      [id]=1
+      [photo]="'https://picsum.photos/1200/600'" 
       [title]="'Card Title'" 
       [cardText]="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?'"
     >
@@ -11,20 +10,23 @@
   </div>
   <div class="secondary">
     <app-card-small 
+      [id]=2
       [cardText]="'Architect & Engineer'"
-      [photo]="'https://picsum.photos/200/300'"
+      [photo]="'https://picsum.photos/600/300'"
       [title]="'Card Title'"
     >
     </app-card-small>
     <app-card-small 
+      [id]=3
       [cardText]="'Architect & Engineer'"
-      [photo]="'https://picsum.photos/200/300'"
+      [photo]="'https://picsum.photos/800/400'"
       [title]="'Card Title'"
     >
     </app-card-small>
-    <app-card-small 
+    <app-card-small
+    [id]=4
     [cardText]="'Architect & Engineer'"
-    [photo]="'https://picsum.photos/200/300'"
+    [photo]="'https://picsum.photos/1000/500'"
     [title]="'Card Title'"
     >
     </app-card-small>
