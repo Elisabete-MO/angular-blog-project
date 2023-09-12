@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-small',
@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class CardSmallComponent {
 
+  @Input() 
+    title: string = "";
+
+  @Input()
+    cardText: string = "";
+    
+  @Input()
+    photo: string = "";
 }

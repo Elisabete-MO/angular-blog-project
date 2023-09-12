@@ -1,5 +1,4 @@
 .articles {
-  border: 1px solid #eb1212;
   display: flex;
   flex-flow: row wrap;
   height: 60%;
@@ -10,7 +9,6 @@
 }
 
 .principal {
-  border: 1px solid #ccc;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -18,7 +16,6 @@
 }
 
 .secondary {
-  border: 1px solid #ccc;
   display: flex;
   flex-direction: column; 
   height: 30%;

@@ -2,11 +2,31 @@
 <app-menu-title></app-menu-title>
 <div class="articles">
   <div class="principal">
-    <app-card></app-card>
+    <app-card 
+      [photo]="'https://picsum.photos/200/300'" 
+      [title]="'Card Title'" 
+      [cardText]="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum?'"
+    >
+    </app-card>
   </div>
   <div class="secondary">
-    <app-card-small></app-card-small>
-    <app-card-small></app-card-small>
-    <app-card-small></app-card-small>
+    <app-card-small 
+      [cardText]="'Architect & Engineer'"
+      [photo]="'https://picsum.photos/200/300'"
+      [title]="'Card Title'"
+    >
+    </app-card-small>
+    <app-card-small 
+      [cardText]="'Architect & Engineer'"
+      [photo]="'https://picsum.photos/200/300'"
+      [title]="'Card Title'"
+    >
+    </app-card-small>
+    <app-card-small 
+    [cardText]="'Architect & Engineer'"
+    [photo]="'https://picsum.photos/200/300'"
+    [title]="'Card Title'"
+    >
+    </app-card-small>
   </div>
 </div>
